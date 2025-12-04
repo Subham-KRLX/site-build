@@ -130,10 +130,7 @@ viewer.addHandler('open', function() {
     var viewer = OpenSeadragon({
         id: "contentDiv",
         prefixUrl: "https://cdn.jsdelivr.net/npm/openseadragon@3.1/build/openseadragon/images/",
-        tileSources: {
-            type: 'image',
-            url: 'https://openseadragon.github.io/example-images/highsmith/highsmith.dzi'
-        },
+        tileSources: "https://openseadragon.github.io/example-images/highsmith/highsmith.dzi",
         showNavigationControl: true,
         gestureSettingsMouse: {
             clickToZoom: false
